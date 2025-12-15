@@ -4,14 +4,14 @@ A full-stack todo application built with Node.js, Express.js, React.js, Redux To
 
 ## Features
 
-- ✅ Create, read, update, and delete todo items
-- 📁 Organize todos into categories
-- 🔍 Filter todos by completion status (all, active, completed)
-- 📅 Sort todos by due date or creation date
-- 📱 Responsive design
-- 🎯 Group todos by categories in the UI
-- ⚡ Real-time updates with Redux state management
-- 🌙 Dark mode theme with toggle and persistence
+-  Create, read, update, and delete todo items
+-  Organize todos into categories
+-  Filter todos by completion status (all, active, completed)
+-  Sort todos by due date or creation date
+-  Responsive design
+-  Group todos by categories in the UI
+-  Real-time updates with Redux state management
+-  Dark mode theme with toggle and persistence
 
 ## Tech Stack
 
@@ -38,7 +38,7 @@ A full-stack todo application built with Node.js, Express.js, React.js, Redux To
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
+git clone https://github.com/jcline7774/todo-app.git
 cd todo-app
 ```
 
@@ -174,7 +174,7 @@ todo-app/
 - Components are built with TypeScript for type safety
 - The application is responsive and works on mobile devices
 
-## Future Enhancements
+## Potential Enhancements
 
 - Persistent database (PostgreSQL, MongoDB)
 - User authentication and authorization
