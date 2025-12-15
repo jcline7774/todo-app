@@ -11,6 +11,7 @@ A full-stack todo application built with Node.js, Express.js, React.js, Redux To
 - 📱 Responsive design
 - 🎯 Group todos by categories in the UI
 - ⚡ Real-time updates with Redux state management
+- 🌙 Dark mode theme with toggle and persistence
 
 ## Tech Stack
 
@@ -130,6 +131,8 @@ todo-app/
 │   │   │   ├── TodoForm.tsx
 │   │   │   ├── CategoryForm.tsx
 │   │   │   └── FilterControls.tsx
+│   │   ├── hooks/
+│   │   │   └── useTheme.ts
 │   │   ├── store/
 │   │   │   ├── index.ts
 │   │   │   ├── todoSlice.ts
@@ -161,6 +164,8 @@ todo-app/
    - Use the filter buttons to show all, active, or completed todos
    - Use the sort dropdown to order by creation date or due date
 
+5. **Dark Mode**: Click the moon/sun icon in the header to toggle between light and dark themes
+
 ## Development Notes
 
 - The backend uses an in-memory database that resets when the server restarts
@@ -176,5 +181,4 @@ todo-app/
 - Todo sharing and collaboration
 - Due date notifications
 - Drag and drop functionality
-- Dark mode theme
 - Export/import functionality

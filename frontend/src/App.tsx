@@ -8,12 +8,14 @@ import TodoList from './components/TodoList';
 import TodoForm from './components/TodoForm';
 import CategoryForm from './components/CategoryForm';
 import FilterControls from './components/FilterControls';
+import { useTheme } from './hooks/useTheme';
 import './App.css';
 
 function App() {
   const dispatch = useDispatch<AppDispatch>();
   const { todos, loading, error, filter, sortBy } = useSelector((state: RootState) => state.todos);
   const { categories } = useSelector((state: RootState) => state.categories);
+  const { theme, toggleTheme } = useTheme();
   
   const [showTodoForm, setShowTodoForm] = useState(false);
   const [showCategoryForm, setShowCategoryForm] = useState(false);
@@ -49,6 +51,9 @@ function App() {
         <div className="header-actions">
           <button onClick={() => setShowTodoForm(true)}>Add Todo</button>
           <button onClick={() => setShowCategoryForm(true)}>Add Category</button>
+          <button onClick={toggleTheme} className="theme-toggle">
+            {theme === 'light' ? '🌙' : '☀️'}
+          </button>
         </div>
       </header>
 
