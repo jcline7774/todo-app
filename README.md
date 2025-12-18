@@ -208,6 +208,6 @@ todo-app/
 
 **Built with ❤️ as a technical demonstration**
 
-*Showcasing modern full-stack development capabilities*
+<a href="https://jcline7774.github.io/todo-app/">*Showcasing modern full-stack development capabilities*</a>
 
 </div>
